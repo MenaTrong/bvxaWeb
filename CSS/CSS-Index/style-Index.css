@@ -1,0 +1,55 @@
+.dec {
+	text-decoration: none;
+}
+
+/* Logo */
+.logo-menu {
+	background-color: #FFFFFF;
+}
+
+/* Menu */
+.offcanvas-body {
+	background-color: #263D89;
+}
+
+.offcanvas-body a {
+	color: #FFFFFF;
+	display: block;
+	padding: 15px;
+	transition: background-color 0.3s;
+}
+
+.offcanvas-body a:last-child {
+	border-bottom: none;
+	/* Remove border from the last item to avoid extra line */
+}
+
+.offcanvas-body a:hover {
+	background-color: #f0f0f0;
+	/* Màu nền thay đổi khi hover */
+}
+
+.offcanvas-body .active {
+	background-color: #f0f0f0;
+	/* Màu nền thay đổi khi hover */
+}
+
+/* Button */
+
+/* Text red */
+.text-red {
+	color: red;
+}
+
+.text-blue {
+	color: #263D89;
+}
+
+/* background red */
+.bg-red {
+	background-color: red;
+}
+
+.bg-blue {
+	background-color: #263D89;
+}
